@@ -95,13 +95,13 @@ APPNAME.Controllers.FooController = M.Controller.extend({
 Generates a model in `app/scripts/models`.
 
 Example:
-```
+```bash
 yo m:model foo
 ```
 
 Produces `app/scripts/models/foo.js`:
 
-```
+```javascript
 APPNAME.Models.FooModel = M.Model.extend({
    // ...
 })
@@ -152,7 +152,7 @@ yo m:i18n en
 
 Produces `app/i18n/en.json`:
 
-```json
+```javascript
 {
     "global.button.save": "Save document",
     "global.button.emptyTrash": "Empty Trash ({{count}})",
